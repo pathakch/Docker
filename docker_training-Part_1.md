@@ -52,11 +52,13 @@ To solve this issue we can use containerisation concept :--> We can craete a vir
     6. Docker performs O.S level Virtualization, also known as containerization.
     7. Docker is a PaaS. 
 #### Advantages of Docker :
- 
+  ```
     1. No pre allocation of RAM
     2. CI efficiency :-->> Docker enabls us to build an image and that can be used across every deployment process.
     3. less cost :--> its cheaper than even AWS EC2 instances bcz no need to provide any OS and no RAM earlier than running process.
     4. Light weight :--> means the applications which use less resources,does not need RAM no need of OS. 
     5. It can run on Physical hardware/Virtual Hardware/or on Cloud.
     6. We can re-use the image
+  ```
+  
                                           
