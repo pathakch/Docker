@@ -22,7 +22,7 @@ To solve this issue we can use containerisation concept :--> We can craete a vir
 
 #### Hardware Level Virtualization:
 
-![Diagram to understand ](diagrams/Vrtualization.drawio.svg)
+![Diagram to understand ](diagrams/Vrtualization.drawio.svg,"Diagram to understand")
 
 
 
