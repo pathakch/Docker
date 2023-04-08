@@ -1,15 +1,17 @@
 ### Why Docker is needed ??
 ##### ANS:-->>
+---
 let's say we create an application and its working fine in dev environment now we send it to the testing team but there this appllication is not working fine bcz testing team might not have same versions of all the software required or may be testing team has not all the required files to run this software in their environment (which were present in development environment)
 So this is a dependencies issue.
 To solve this issue we can use containerisation concept :--> We can craete a virtual machine icluding the application,same operating system(as development environment) and with all the softwares/files required and we can create an image of this virtual machine and send it to the testing team now the testing team will use this virtual machine and run the software and it will work fine as in development environment.
+***
 
 **There are three types of virtual machine concept :**
 
         1. using hypervisor  :--> This is a basic virtualisation concept
         2. AWS EC2 instances :--> Can say better version version of virtualisation
         3. Docker            :--> Advance level of virtualisation and removing hypervisor concept of VMWare
-#### Main differences of containerisation in VM and Docker
+> **Main differences of containerisation in VM and Docker**
    
     1. 
       Virtual machine has its own OS
