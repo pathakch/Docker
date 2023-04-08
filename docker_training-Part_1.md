@@ -9,17 +9,17 @@ To solve this issue we can use containerisation concept :--> We can craete a vir
         2. AWS EC2 instances:--> Can say better version version of virtualisation
         3. Docker :-->> Advance level of virtualisation and removing hypervisor concept of VMWare
 #### Main differences of containerisation in VM and Docker
-*   
-  1. 
+   
+    1. 
       Virtual machine has its own OS
       Docker container has not its own OS :-> it uses OS of physical hardware
-  2. 
+    2. 
        Once VM takes an amount of RAM/ROM it won't return to pyhsical hardaware irrespective of its doing any work or not.
        Docker container is not permanent if its not running any job it will return its RAM and ROM to the original physical hardware which can be used by other containers if needed.
-  3. 
+    3. 
        In VM we need to insatall its operating system separately.
        Docker takes all the dependencies from `Docker Hub`. So there is no dependencies issue. We just need to pass the command that docker we want to create `linux` or `ubuntu` or any other OS it will go to docker hub and take all the things and create that OS for us.
-  4. 
+    4. 
        Docker does O.S level virtualization whether VMware does hardware level virtualization.  
 
 #### Hardware Level Virtualization:
