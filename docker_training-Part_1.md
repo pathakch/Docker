@@ -29,13 +29,14 @@ To solve this issue we can use containerisation concept :--> We can craete a vir
        Docker does O.S level virtualization whether VMware does hardware level virtualization.  
 
 #### Hardware level virtualization VS OS level virtualization
-##### Hardware Level Virtualization:
+---
+> *Hardware Level Virtualization* :
 
 ![Diagram to understand ](diagrams/Hardware_level_Virtualization.drawio.svg "Diagram to understand")
 
 
-
-##### O.S Level Virtualization:
+---
+> *O.S Level Virtualization* :
 
 ![Diagram to understand ](diagrams/OS_level_Virtualization.drawio.svg "Diagram to understand")
 
