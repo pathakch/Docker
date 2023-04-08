@@ -28,29 +28,27 @@ To solve this issue we can use containerisation concept :--> We can craete a vir
 
 
 
-
-
 #### O.S Level Virtualization:
 
 
 #### Features of Docker :
-* *   
-     1. We will create container in development and create one image of this container and share with   testing team or with anyone else and they can use this image to create docker container and run the application.
-     2. Docker container contains only software not OS.
-     3. Docker uses container on the host OS to run application, It allows applications to use the same linux kernel as on the host computer rather than creating a whole Virtual O.S
-     4. We can run docker on any operating system but Docker runs its Docker engine natively on linux distributions
-     5. Docker written in `go` language.
-     6. Docker performs O.S level Virtualization, also known as containerization.
-     7. Docker is a PaaS. 
+  
+  1. We will create container in development and create one image of this container and share with   testing team or with anyone else and they can use this image to create docker container and run the application.
+  2. Docker container contains only software not OS.
+  3. Docker uses container on the host OS to run application, It allows applications to use the same linux kernel as on the host computer rather than creating a whole Virtual O.S
+  4. We can run docker on any operating system but Docker runs its Docker engine natively on linux distributions
+  5. Docker written in `go` language.
+  6. Docker performs O.S level Virtualization, also known as containerization.
+  7. Docker is a PaaS. 
 ### Advantages of Docker :
-* * 
+ 
     1. No pre allocation of RAM
     2. CI efficiency :-->> Docker enabls us to build an image and that can be used across every deployment process.
     3. less cost :--> its cheaper than even AWS EC2 instances bcz no need to provide any OS and no RAM earlier than running process.
     4. Light weight :--> means the applications which use less resources,does not need RAM no need of OS. 
     5. It can run on Physical hardware/Virtual Hardware/or on Cloud.
-    6. We cn re-use the image
-    7. 
+    6. We can re-use the image
+    
 
 
                                           
