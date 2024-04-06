@@ -10,11 +10,15 @@ Our aim is this python application should be running in AWS BATCH for this the f
 3. Above both should be in same directory so that while creating image we just need to run build command no need to specify path 
 4. Create docker image running this command `docker build -t <image_tag> .`
 5. Create one ECR repository either from console or AWS CLI
-6. Authenticate docker client locally with AWS ECR repository : ->> For this ECR repo provides command which we need to run in our local command prompt
+6. Authenticate docker client locally with AWS ECR repository : ->> 
+   For this, ECR repo provides command which we need to run in our local command prompt
 
      Command to authenticate : `aws ecr get-login-password --region ap-south-1| docker login --username AWS --password-stdin <account_id>.dkr.ecr.<region-name>.amazonaws.com`
+
      will get this message after successfull authentication:`Login Succeeded`
 7. Tag docker image with ECR repository and any_image_name(which will be relected in ECR repo after image is pushed to ECR).
+
      Command : `docker tag <image_id> <aws_account_id>.dkr.ecr.ap-south-1.amazonaws.com/<ECR-repo-name>:any_image_name`
 8. Push image to ECR:
+
      Command: `docker push <aws_account_id>.dkr.ecr.ap-south-1.amazonaws.com/<ECR-repo-name>:any_image_name` 
