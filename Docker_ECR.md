@@ -22,3 +22,5 @@ Our aim is this python application should be running in AWS BATCH for this the f
 8. Push image to ECR:
 
      Command: `docker push <aws_account_id>.dkr.ecr.ap-south-1.amazonaws.com/<ECR-repo-name>:any_image_name` 
+
+checking github works with two github account or not 
